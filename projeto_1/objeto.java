@@ -30,4 +30,12 @@ private double saldo;
 	{
 		return saldo;
 	}
+	
+	public void saque(double saque)
+	{
+		if (saque > saldo)
+			System.out.println("O valor de saque é maior que o seu saldo");
+		if (saque <= saldo)
+			saldo = saldo - saque;
+	}
 }
