@@ -23,7 +23,7 @@ public class EmployeeTest {
 		
 		System.out.printf("%n%s %s salario Anual: %.2f",//MOSTRA SALARIO ANUAL
 				employee1.getNome(), employee1.getSobrenome(), (employee1.getSalarioMensal() *12));
-		System.out.printf("%n%sl %s salario Anual: %.2f%n",
+		System.out.printf("%n%s %s salario Anual: %.2f%n",
 				employee2.getNome(), employee2.getSobrenome(), (employee2.getSalarioMensal() *12));
 		
 		
